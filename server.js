@@ -66,6 +66,18 @@ const server = http.createServer((req, res) => {
       const end = parts[1] ? parseInt(parts[1], 10) : fileSize - 1;
       const chunksize = (end - start) + 1;
       const file = fs.createReadStream(filePath, { start, end });
+
+      file.on('error', (streamErr) => {
+        if (!res.headersSent) {
+          res.writeHead(500);
+          res.end('Video stream error');
+        }
+      });
+
+      res.on('close', () => {
+        file.destroy();
+      });
+
       res.writeHead(206, {
         'Content-Range': `bytes ${start}-${end}/${fileSize}`,
         'Accept-Ranges': 'bytes',
@@ -92,8 +104,31 @@ const server = http.createServer((req, res) => {
     }
 
     res.writeHead(200, headers);
-    fs.createReadStream(filePath).pipe(res);
+    const normalStream = fs.createReadStream(filePath);
+    normalStream.on('error', (streamErr) => {
+      if (!res.headersSent) {
+        res.writeHead(500);
+        res.end('File stream error');
+      }
+    });
+    res.on('close', () => {
+      normalStream.destroy();
+    });
+    normalStream.pipe(res);
   });
+});
+
+// Guard against process crashes from aborted client streams or network disconnects
+process.on('uncaughtException', (err) => {
+  if (err.code === 'EPIPE' || err.code === 'ECONNRESET') {
+    // Normal browser disconnection during video chunk download
+    return;
+  }
+  console.error('⚠️ Uncaught exception captured (Server recovered):', err.message);
+});
+
+process.on('unhandledRejection', (reason) => {
+  console.error('⚠️ Unhandled rejection:', reason);
 });
 
 let currentPort = Number(PORT);
