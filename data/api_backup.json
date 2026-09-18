@@ -1,0 +1,357 @@
+{
+  "programs": [
+    {
+      "id": 1,
+      "title": "Tabungan Umroh Kanomas Tasikmalaya: Langkah Mudah Mewujudkan Perjalanan ke Baitullah",
+      "departure": null,
+      "duration": null,
+      "airline": null,
+      "class": null,
+      "price": "0.00",
+      "description": "Program Tabungan Umroh hadir untuk membantu Anda mengubah niat menjadi langkah nyata. Anda tidak harus langsung menyiapkan seluruh biaya umroh. Dana dapat dikumpulkan secara bertahap sesuai kemampuan dan kondisi keuangan masing-masing. Karena tabungan yang terlihat kecil hari ini dapat menjadi jalan menuju perjalanan besar di masa depan.",
+      "image": "uploads/programs/1784000722_Tabungan_Umroh_Kanomas_Tasikmalaya.jpeg",
+      "features": [
+        "1. Proses Pendaftaran Mudah",
+        "2. Tanpa Potongan Admin",
+        "3. Tidak Ada Target Nominal Tabungan",
+        "4. Menabung Melalui Transfer Bank",
+        "5. Masuk Grup WhatsApp Calon Jamaah",
+        "6. Mendapatkan Informasi Promo Paket Umroh"
+      ],
+      "itinerary": [
+        {
+          "day": "Hari ke 1",
+          "title": "Berangkat Dari Jakarta",
+          "desc": "Itinerary sesuai dengan paket yang dipilih pada saat keberangkatan"
+        }
+      ],
+      "facilities_included": [
+        "Sesuai dengan paket umroh yang dipilih"
+      ],
+      "facilities_excluded": [
+        "Biaya Visa",
+        "Biaya Vaksin"
+      ],
+      "created_at": "2026-07-05T13:51:14.000000Z",
+      "updated_at": "2026-07-14T03:52:06.000000Z"
+    }
+  ],
+  "paket-umrah": [
+    {
+      "id": 1,
+      "title": "Umrah Promo Plus Muscat (Bayar 1 Berangkat 2)",
+      "slug": "umrah-promo-plus-muscat-bayar-1-berangkat-2",
+      "category": "plus",
+      "airline_name": "Oman Air (TIF - TIF)",
+      "duration": "11 Hari",
+      "departure_date": "20 September 2026",
+      "hotel_makkah_name": "Fajr Badea 5 / Setaraf (4N)",
+      "hotel_madinah_name": "Arkan Al Manar / Setaraf (3N)",
+      "hotel_transit_name": "Hotel Muscat Oman (1 Malam City Tour)",
+      "base_price": "49900000.00",
+      "price_quad": "49900000.00",
+      "cover_image": "assets/flyers/flyer-promo-plus-muscat-bayar1-berangkat2-20sept.jpg",
+      "image": "assets/flyers/flyer-promo-plus-muscat-bayar1-berangkat2-20sept.jpg",
+      "ig_url": "https://www.instagram.com/kanomas_tasik/p/DbmwISlxfQD/",
+      "status": "Promo Buy 1 Get 1 Free",
+      "description": "Promo Spesial Bayar 1 Berangkat 2 (Buy 1 Get 1 Free) dengan maskapai internasional Oman Air. Termasuk City Tour 1 Malam di Muscat Oman, hotel di Madinah dan Makkah, visa, makan 3x, dan bimbingan manasik."
+    },
+    {
+      "id": 2,
+      "title": "Umrah Promo Spesial Bulan Maulid (Bayar 1 Berangkat 2)",
+      "slug": "umrah-promo-spesial-maulid-bayar-1-berangkat-2",
+      "category": "reguler",
+      "airline_name": "Oman Air",
+      "duration": "10 Hari",
+      "departure_date": "03 Oktober 2026",
+      "hotel_makkah_name": "Snood Ajyad / Setaraf (4N)",
+      "hotel_madinah_name": "Arkan Al Manar / Setaraf (3N)",
+      "base_price": "49900000.00",
+      "price_quad": "49900000.00",
+      "cover_image": "assets/flyers/flyer-promo-maulid-bayar1-berangkat2-3okt.jpg",
+      "image": "assets/flyers/flyer-promo-maulid-bayar1-berangkat2-3okt.jpg",
+      "ig_url": "https://www.instagram.com/kanomas_tasik/p/DcgTlgHSd7G/",
+      "status": "Promo Maulid 10 Hari",
+      "description": "Program Spesial Maulid Nabi Muhammad SAW dengan paket hemat Buy 1 Get 1 Free (Bayar 1 Berangkat 2). Tiket PP Oman Air, makan 3x sehari, asuransi, ziarah & city tour, dan air zamzam 5 liter."
+    },
+    {
+      "id": 3,
+      "title": "Paket Umroh Bintang 4 Garuda Indonesia (Bonus Kereta Cepat)",
+      "slug": "paket-umroh-bintang-4-garuda-indonesia",
+      "category": "reguler",
+      "airline_name": "Garuda Indonesia",
+      "duration": "9 Hari",
+      "departure_date": "05 Oktober 2026",
+      "hotel_makkah_name": "Maysan Al Mashaer / Setaraf (4N)",
+      "hotel_madinah_name": "Nozol Royal Inn / Setaraf (3N)",
+      "base_price": "33900000.00",
+      "price_quad": "33900000.00",
+      "price_triple": "36900000.00",
+      "price_double": "39900000.00",
+      "cover_image": "assets/flyers/flyer-umroh-bintang4-garuda-5okt.jpg",
+      "image": "assets/flyers/flyer-umroh-bintang4-garuda-5okt.jpg",
+      "ig_url": "https://www.instagram.com/kanomas_tasik/p/DcgUQcTy_az/",
+      "status": "Bintang 4 Premium",
+      "description": "Penerbangan direct bersama maskapai nasional Garuda Indonesia. Dilengkapi fasilitas Bonus Kereta Cepat Haramain Express, Free Makan di Restoran Al Romansiah, hotel dekat pelataran masjid, dan ziarah lengkap."
+    },
+    {
+      "id": 4,
+      "title": "Umrah Promo Paket Hemat Garuda Indonesia (10 Hari)",
+      "slug": "umrah-promo-paket-hemat-garuda-indonesia",
+      "category": "reguler",
+      "airline_name": "Garuda Indonesia",
+      "duration": "10 Hari",
+      "departure_date": "30 November 2026",
+      "hotel_makkah_name": "Fajr Badea 5 / Setaraf (4N)",
+      "hotel_madinah_name": "Grand Zowar / Setaraf (3N)",
+      "base_price": "27900000.00",
+      "price_quad": "27900000.00",
+      "cover_image": "assets/flyers/flyer-promo-hemat-garuda-30nov.jpg",
+      "image": "assets/flyers/flyer-promo-hemat-garuda-30nov.jpg",
+      "ig_url": "https://www.instagram.com/kanomas_tasik/p/DcgVDLDyUU0/",
+      "status": "Promo Super Hemat",
+      "description": "Paket Umrah Promo Hemat 10 Hari Start Tasikmalaya dengan maskapai Garuda Indonesia. Harga mulai Rp 27,9 Juta sudah termasuk tiket PP, hotel, makan 3x sehari + AlBaik, visa, asuransi, dan zamzam."
+    },
+    {
+      "id": 5,
+      "title": "Program Shafa - Umrah Pelataran Direct Bintang 5 (Etihad)",
+      "slug": "program-umrah-pelataran-direct-bintang-5",
+      "category": "reguler",
+      "airline_name": "Etihad Airways (Jed-Jed)",
+      "duration": "10 Hari",
+      "departure_date": "03 Agustus 2026",
+      "hotel_makkah_name": "Hilton Suite / Dar Al Eiman Royal (Pelataran Bintang 5)",
+      "hotel_madinah_name": "Al Aqeeq / Peninsula (Bintang 5)",
+      "base_price": "35900000.00",
+      "price_quad": "35900000.00",
+      "price_triple": "38900000.00",
+      "price_double": "41900000.00",
+      "cover_image": "assets/flyers/flyer-shafa-pelataran-etihad-3agt.jpg",
+      "image": "assets/flyers/flyer-shafa-pelataran-etihad-3agt.jpg",
+      "status": "Pelataran Bintang 5",
+      "description": "Program umrah premium dengan hotel menempel pelataran Masjidil Haram & Nabawi. Akses lift langsung tanpa jalan kaki jauh, cocok untuk lansia dan keluarga."
+    },
+    {
+      "id": 6,
+      "title": "Program Tabungan Umroh Kanomas Berkah via BSI",
+      "slug": "program-tabungan-umroh-kanomas-berkah",
+      "category": "tabungan",
+      "airline_name": "Garuda / Saudia Airlines",
+      "duration": "Fleksibel",
+      "departure_date": "Sesuai Target Saldo Jamaah",
+      "hotel_makkah_name": "Hotel Pilihan Bintang 4 / 5",
+      "hotel_madinah_name": "Hotel Pilihan Bintang 4 / 5",
+      "base_price": "500000.00",
+      "price_quad": "500000.00",
+      "cover_image": "assets/flyers/flyer-tabungan-umroh-berkah.jpg",
+      "image": "assets/flyers/flyer-tabungan-umroh-berkah.jpg",
+      "status": "Pendaftaran Dibuka",
+      "description": "Rencanakan ibadah umrah dengan menabung syariah di bank syariah terpercaya (BSI). Tanpa potongan administrasi bulanan, bebas menentukan nominal setoran."
+    }
+  ],
+  "paket-haji": [
+    {
+      "id": 101,
+      "title": "Haji Khusus & Furoda VIP Tanpa Antre (Izin Resmi PIHK)",
+      "slug": "haji-khusus-furoda-vip",
+      "category": "haji",
+      "airline_name": "Saudia Airlines / Garuda Direct",
+      "duration": "25 - 28 Hari",
+      "departure_date": "Musim Haji 1447H / 2026",
+      "hotel_makkah_name": "Hotel Bintang 5 Dekat Masjidil Haram",
+      "hotel_madinah_name": "Hotel Bintang 5 Dekat Masjid Nabawi",
+      "base_price": "235000000.00",
+      "price_quad": "235000000.00",
+      "cover_image": "assets/flyers/flyer-umroh-bintang4-garuda-5okt.jpg",
+      "image": "assets/flyers/flyer-umroh-bintang4-garuda-5okt.jpg",
+      "status": "Izin Resmi PIHK",
+      "description": "Penyelenggaraan Ibadah Haji Khusus berizin resmi Kemenag RI (PIHK No. 9120313132406). Tenda Maktab VIP ber-AC di Mina & Arafah, pembimbing ibadah berpengalaman, hotel transit bintang 5."
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 4,
+      "name": "Yuli",
+      "location": "Tasikmalaya",
+      "program": "Program Umroh Hebat",
+      "message": "Pelayanannya Ramah dan segala sesuatu terkait dengan umrah dilayani dengan baik.\r\nTerimakasih",
+      "avatar": "http://localhost/kanomas-tour-travel/backend/public/storage/testimonials/avatars/i4wf1WXGE7JGqstKN2hATKppTkF7JWkfp6r2J3dW.png",
+      "date": "Juni 2026",
+      "created_at": "2026-07-05T20:08:48.000000Z",
+      "updated_at": "2026-07-05T20:08:48.000000Z"
+    }
+  ],
+  "documentations": [
+    {
+      "id": 1,
+      "title": "Yuk mengenal kita lebih dekat agar menjadi teman setia menuju Baitullah",
+      "youtube_url": "https://youtu.be/vB61Hl0oenQ",
+      "created_at": "2026-07-05T20:23:53.000000Z",
+      "updated_at": "2026-07-07T03:24:47.000000Z"
+    }
+  ],
+  "guides": [
+    {
+      "id": 21,
+      "name": "KH. Nono Nurul Hidayat",
+      "role": "Pembimbing Umroh",
+      "is_certified": 1,
+      "image": "https://kanomastasikmalaya.com/backend/public/storage/guides/images/vZQoug0HNgERDGrXuHPnHBJfI9tKwAu9sCS80MGe.png",
+      "created_at": "2026-07-07T03:08:56.000000Z",
+      "updated_at": "2026-07-07T03:08:56.000000Z"
+    },
+    {
+      "id": 22,
+      "name": "H. Irpan Hilmi, Lc,. MA., MH",
+      "role": "Pembimbing Umroh",
+      "is_certified": 1,
+      "image": "https://kanomastasikmalaya.com/backend/public/storage/guides/images/yT6zYf6iHZbzZcLcaScFaZVrpZWySpaNOTeSzuCL.png",
+      "created_at": "2026-07-07T03:09:38.000000Z",
+      "updated_at": "2026-07-07T03:09:38.000000Z"
+    },
+    {
+      "id": 23,
+      "name": "H. Asep Mulyana",
+      "role": "Pembimbing Umroh",
+      "is_certified": 1,
+      "image": "https://kanomastasikmalaya.com/backend/public/storage/guides/images/fKnAnoqAxcUSsTSamiybQXhGSyGp8LCNGhTuBToc.png",
+      "created_at": "2026-07-07T03:10:07.000000Z",
+      "updated_at": "2026-07-07T03:10:07.000000Z"
+    },
+    {
+      "id": 24,
+      "name": "KH. Didi Mochamad Turmudi, Lc., MA.",
+      "role": "Pembimbing Umroh",
+      "is_certified": 1,
+      "image": "https://kanomastasikmalaya.com/backend/public/storage/guides/images/37H3K8HliAjie0skxiX53eHE8914HtZRRFuhxFVh.png",
+      "created_at": "2026-07-07T03:10:32.000000Z",
+      "updated_at": "2026-07-07T03:10:32.000000Z"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "10 Doa Mustajab yang Wajib Dibaca Saat di Masjidil Haram",
+      "category": "Tips Umroh",
+      "date": "16 Mei 2026",
+      "image": "https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?auto=format&fit=crop&w=500&q=80",
+      "excerpt": "Berdoa di depan Ka'bah adalah impian setiap muslim. Berikut kumpulan doa mustajab sesuai tuntunan Nabi...",
+      "content": null,
+      "created_at": "2026-07-06T07:22:17.000000Z",
+      "updated_at": "2026-07-06T07:22:17.000000Z"
+    },
+    {
+      "id": 2,
+      "title": "Tips Umroh untuk Wanita: Panduan Praktis dan Perlengkapan",
+      "category": "Tips Umroh",
+      "date": "12 Mei 2026",
+      "image": "https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=500&q=80",
+      "excerpt": "Bagi jamaah wanita, mempersiapkan perlengkapan khusus umroh adalah kunci ibadah tenang dan tertib...",
+      "content": null,
+      "created_at": "2026-07-06T07:22:17.000000Z",
+      "updated_at": "2026-07-06T07:22:17.000000Z"
+    },
+    {
+      "id": 3,
+      "title": "Umroh Wanita: Lebih dekat dari Ibadah, Namun...",
+      "category": "Info Syariah",
+      "date": "27 April 2026",
+      "image": "http://localhost:8000/storage/articles/4peMG7wVf9jO3ShSnZvbq7rOuMSSOPODHmbKBKBE.jpg",
+      "excerpt": "Fikih praktis perjalanan wanita beribadah umroh dengan atau tanpa mahram sesuai kesepakatan ulama...",
+      "content": "asdasdasdasdasdadzxzdzdzsdsdzds",
+      "created_at": "2026-07-06T07:22:17.000000Z",
+      "updated_at": "2026-07-06T07:25:08.000000Z"
+    },
+    {
+      "id": 4,
+      "title": "Umroh Akhwat: Kenapa Muslimah harus didampingi mahram?",
+      "category": "Info Syariah",
+      "date": "15 April 2026",
+      "image": "https://images.unsplash.com/photo-1565182999561-18d7db61c393?auto=format&fit=crop&w=500&q=80",
+      "excerpt": "Penjelasan komprehensif mengenai pendampingan mahram bagi wanita muslim dalam rukun safar ibadah...",
+      "content": null,
+      "created_at": "2026-07-06T07:22:17.000000Z",
+      "updated_at": "2026-07-06T07:22:17.000000Z"
+    },
+    {
+      "id": 5,
+      "title": "Paket Umroh Desember Bandung: Liburan Berkah Bersama Kanomas Tasikmalaya",
+      "category": "Promo",
+      "date": "05 April 2026",
+      "image": "https://images.unsplash.com/photo-1604596306559-0091df8813fa?auto=format&fit=crop&w=500&q=80",
+      "excerpt": "Sambut libur akhir tahun dengan meningkatkan takwa di tanah suci bersama paket premium kami...",
+      "content": null,
+      "created_at": "2026-07-06T07:22:17.000000Z",
+      "updated_at": "2026-07-06T07:22:17.000000Z"
+    }
+  ],
+  "social-medias": [
+    {
+      "id": 6,
+      "embed_link": "https://www.instagram.com/reel/DUR3oKFEsai/?igsh=MjRteWRreXE0bm03",
+      "position": 1,
+      "created_at": "2026-07-05T20:40:49.000000Z",
+      "updated_at": "2026-07-07T01:35:20.000000Z"
+    },
+    {
+      "id": 7,
+      "embed_link": "https://www.tiktok.com/@kanomas_tasik/video/7657477183270685973?_r=1&_t=ZS-97p8m7RgCcm",
+      "position": 2,
+      "created_at": "2026-07-07T01:38:20.000000Z",
+      "updated_at": "2026-08-25T06:50:52.000000Z"
+    }
+  ],
+  "galleries": [
+    {
+      "id": 7,
+      "image_path": "galleries/4RD70xw2kbGmOYyJNUUfwgDRB8kdWA6xNtZgcNoP.jpg",
+      "created_at": "2026-07-07T03:31:07.000000Z",
+      "updated_at": "2026-07-07T03:31:07.000000Z"
+    }
+  ],
+  "doas": [
+    {
+      "id": 1,
+      "title": "Doa Safar (Keluar Rumah / Perjalanan) tess",
+      "arabic": "بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ، لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
+      "latin": "Bismillahi tawakkaltu 'alallahi, laa hawla wa laa quwwata illa billah.",
+      "meaning": "Dengan menyebut nama Allah, aku bertawakkal kepada Allah. Tiada daya dan kekuatan kecuali dengan (pertolongan) Allah.",
+      "created_at": "2026-07-06T15:00:08.000000Z",
+      "updated_at": "2026-07-06T15:01:39.000000Z"
+    },
+    {
+      "id": 2,
+      "title": "Niat Umroh",
+      "arabic": "لَبَّيْكَ اللَّهُمَّ عُمْرَةً",
+      "latin": "Labbaikallahumma 'umratan.",
+      "meaning": "Kupenuhi panggilan-Mu ya Allah untuk melaksanakan ibadah umroh.",
+      "created_at": "2026-07-06T15:00:08.000000Z",
+      "updated_at": "2026-07-06T15:00:08.000000Z"
+    },
+    {
+      "id": 3,
+      "title": "Doa Masuk Masjidil Haram",
+      "arabic": "اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+      "latin": "Allahummaf-tah lii abwaaba rahmatik.",
+      "meaning": "Ya Allah, bukakanlah untukku pintu-pintu rahmat-Mu.",
+      "created_at": "2026-07-06T15:00:08.000000Z",
+      "updated_at": "2026-07-06T15:00:08.000000Z"
+    }
+  ],
+  "kajians": [
+    {
+      "id": 1,
+      "title": "Kajian Baperan",
+      "speaker": "Ust Dadan Abdul Aziz",
+      "date": "14 Juli 2026",
+      "time": "16.00 WIB",
+      "location": "Masjid Algani",
+      "description": "Kajian Sore",
+      "image": "/storage/kajians/PKK0nIafOKnxCVORGa66y5VkCKB3m4SGclUe61Je.jpg",
+      "status": "Hari Ini",
+      "created_at": "2026-07-06T15:23:51.000000Z",
+      "updated_at": "2026-07-14T04:01:08.000000Z"
+    }
+  ],
+  "muslimdays": []
+}

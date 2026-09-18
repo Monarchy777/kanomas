@@ -1,0 +1,17 @@
+{
+  "name": "kanomas-tasikmalaya",
+  "version": "1.0.0",
+  "description": "Website Kanomas Tasikmalaya - Replikasi Lengkap",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "kanomas",
+    "umrah",
+    "tasikmalaya"
+  ],
+  "author": "",
+  "license": "ISC"
+}
