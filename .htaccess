@@ -1,0 +1,51 @@
+﻿# ==============================================================================
+# Kanomas Tasikmalaya - Hostinger Web Server Configuration (.htaccess)
+# ==============================================================================
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# 1. Pastikan selalu menggunakan HTTPS aman (SSL)
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 2. Redirect mediasosial.net/kanomas -> https://kanomas.mediasosial.net
+# Mencegah akses via folder sub-domain di domain utama, mengarahkan ke subdomain resmi
+RewriteCond %{HTTP_HOST} ^(www\.)?mediasosial\.net$ [NC]
+RewriteRule ^(.*)$ https://kanomas.mediasosial.net/$1 [R=301,L]
+
+</IfModule>
+
+# ==============================================================================
+# Browser Caching & Performance (LiteSpeed / Apache)
+# ==============================================================================
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 month"
+
+  # Media: Images, Icons, Video
+  ExpiresByType image/jpg "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+  ExpiresByType video/mp4 "access plus 1 year"
+  ExpiresByType video/webm "access plus 1 year"
+
+  # Webfonts
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
+
+  # CSS / JavaScript
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
+
+# ==============================================================================
+# Security Headers
+# ==============================================================================
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-XSS-Protection "1; mode=block"
+</IfModule>

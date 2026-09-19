@@ -6,16 +6,24 @@ Website ini merupakan replikasi identik dan fungsional dari website [www.kanomas
 
 ```
 Kanomas/
+├── .htaccess               # Konfigurasi Apache/LiteSpeed (Hostinger redirect & cache)
 ├── assets/
-│   ├── index-CCO2MJMX.js      # Production bundle JavaScript aplikasi
-│   ├── index-DJdMnS2K.css      # Production stylesheet CSS (Tailwind)
-│   └── logo-kanomas.ico        # Icon Kanomas
+│   ├── index-DJdMnS2K.css  # Core Tailwind CSS
+│   ├── marketing-4.0.css   # Theme styling & high-contrast adjustments
+│   ├── marketing-4.0.js    # Interactive engine, promo slider, video control
+│   ├── logo-kanomas.png    # Brand logo
+│   ├── logo-kanomas.ico    # Favicon
+│   ├── thawaf-optimized.webm # Optimized Ka'bah video background
+│   ├── Thawaf.mp4          # Fallback Ka'bah video background
+│   ├── thawaf-poster.jpg   # Poster fallback
+│   └── flyers/             # Promo flyers & package images
 ├── data/
-│   └── api_backup.json         # Snapshot lengkap data live API
-├── index.html                  # Halaman web utama
-├── package.json                # Skrip Node.js
-├── server.js                   # Web server lokal mandiri (Zero-Dependency)
-└── README.md                   # Dokumentasi
+│   └── api_backup.json     # Paket data umrah live API snapshot
+├── index.html              # Landing page utama
+├── package.json            # Script development lokal
+├── run-server.bat          # Launcher 1-klik lokal server Windows
+├── server.js               # Local development server (HTTP 206 video-safe)
+└── README.md               # Dokumentasi
 ```
 
 ## Cara Menjalankan Website
